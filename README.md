@@ -15,4 +15,5 @@ Dependências:
 
 Como executar:  
 git clone https://github.com/Kleverson-c/json_mongodb.git  
-Rodar o arquivo out/artifacts/json_mongodb_jar/json_mongodb.jar com o comando "java -jar json_mongodb.jar"
+cd json_mongodb/out/artifacts/json_mongodb_jar  
+java -jar json_mongodb.jar
