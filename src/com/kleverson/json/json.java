@@ -95,7 +95,7 @@ public class json {
     }
 
     private static void InsertCheck(String CollectionName, Document Doc) {
-        if (MongoDB.findID(CollectionName, Doc.getInteger("_id")) == Doc) {
+        if (MongoDB.findID(CollectionName, Doc.getInteger("_id")) != null) {
             MongoDB.DeleteOne(CollectionName, eq("_id", Doc.getInteger("_id")));
 
         }
