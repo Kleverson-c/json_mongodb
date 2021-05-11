@@ -3,6 +3,9 @@
 Resposta para o desafio https://gitlab.com/fprates/automata/-/issues/6  
 Download de JSON, armazenamento em MongoDB e display no console.
 
+Requisitos:
+*MongoDB executando localmente na porta padrão.
+
 Dependências:  
 *json-20210307.jar  
 *bson-4.2.3.jar  
