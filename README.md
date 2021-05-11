@@ -13,5 +13,6 @@ Dependências:
 *mongodb-driver-core-4.2.3.jar  
 *mongodb-driver-sync-4.2.3.jar  
 
-Como executar:
+Como executar:  
+$ git clone https://github.com/Kleverson-c/json_mongodb.git  
 Rodar o arquivo out/artifacts/json_mongodb_jar/json_mongodb.jar com o comando "java -jar json_mongodb.jar"
