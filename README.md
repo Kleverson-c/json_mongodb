@@ -1,19 +1,18 @@
 # json_mongodb
 
-Resposta para o desafio https://gitlab.com/fprates/automata/-/issues/6  
-Download de JSON, armazenamento em MongoDB e display no console.
+## Description
+Answer to [this challenge](https://gitlab.com/fprates/automata/-/issues/6).
+Consisting of downloading JSON, storing it, and displaying it on the console.
 
-Requisitos:
-*MongoDB executando localmente na porta padrão.
+## Tech used
+Language and Database used was based on the requisites of the challenge: Java and MongoDB.
 
-Dependências:  
-*json-20210307.jar  
-*bson-4.2.3.jar  
-*mongodb-crypt-1.2.0.jar  
-*mongodb-driver-core-4.2.3.jar  
-*mongodb-driver-sync-4.2.3.jar  
+## Requisites
+In order to run, it's necessary to have **Java 8** (or later) jdk installed, and **MongoDB** v10 or later running on localhost.
 
-Como executar:  
-git clone https://github.com/Kleverson-c/json_mongodb.git  
+## How to run it
+```
+git clone https://github.com/Kleverson-c/json_mongodb.git
 cd json_mongodb/out/artifacts/json_mongodb_jar  
 java -jar json_mongodb.jar
+```
